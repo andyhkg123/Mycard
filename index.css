@@ -31,9 +31,12 @@ html, body {
 
 
 .back{
+    position: relative;
     transform: rotateY(180deg);
     height: 100%;
     width: 100%;
+    border-radius: 15px;
+
 }
 
 .doge{
@@ -49,16 +52,41 @@ html, body {
     left: 30%;
 }
 .city{
-    object-fit: cover;
-    width: 200px; /* Set explicit width */
-    height: 300px;
+    position: absolute;
+    object-fit: fill;
+    width: 120px; /* Set explicit width */
+    height: 120px;
     backface-visibility: hidden;
-    border-radius: 15px;
+    border-radius: 50%;
+    left: 22%;
+    top:15%;
 }
 
 .back_container{
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
 }
+
+.back_container div{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: -4px 4px #ef3550,
+                 -8px 8px #f48fb1,
+                 -12px 12px #7e57c2,
+                 -16px 16px #2196f3,
+                 -20px 20px #26c6da,
+                 -24px 24px #43a047,
+                 -28px 28px #eeff41,
+                 -32px 32px #f9a825,
+                 -36px 36px #ff5722;
+   
+}
+
