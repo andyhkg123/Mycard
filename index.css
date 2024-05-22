@@ -15,12 +15,13 @@ html, body {
     height: 300px;
     border: 1px  black;
     border-radius: 15px;
-    transition:  2.5s; /* Moved transition property to .middle class */
+    transition:  1s; 
     transform-style: preserve-3d;
 
 }
 
-.card-container:hover .middle{
+
+.card-container:hover .middle {
     transform: rotateY( 180deg ) ;
 }
 
@@ -41,7 +42,7 @@ html, body {
 
 .doge{
     object-fit: cover;
-    width: 200px; /* Set explicit width */
+    width: 200px; 
     height: 300px;
     backface-visibility: hidden;
     border-radius: 15px;
@@ -54,9 +55,8 @@ html, body {
 .city{
     position: absolute;
     object-fit: fill;
-    width: 120px; /* Set explicit width */
+    width: 120px; 
     height: 120px;
-    backface-visibility: hidden;
     border-radius: 50%;
     left: 22%;
     top:15%;
