@@ -7,15 +7,15 @@ html, body {
 }
 
 .card-container {
-    
+    perspective: 3000px;
 }
 
 .middle {
-    width: 150px;
+    width: 200px;
     height: 300px;
     border: 1px  black;
     border-radius: 15px;
-    transition:  1s; /* Moved transition property to .middle class */
+    transition:  2.5s; /* Moved transition property to .middle class */
     transform-style: preserve-3d;
 
 }
@@ -38,7 +38,7 @@ html, body {
 
 .doge{
     object-fit: cover;
-    width: 150px; /* Set explicit width */
+    width: 200px; /* Set explicit width */
     height: 300px;
     backface-visibility: hidden;
     border-radius: 15px;
@@ -50,7 +50,7 @@ html, body {
 }
 .city{
     object-fit: cover;
-    width: 150px; /* Set explicit width */
+    width: 200px; /* Set explicit width */
     height: 300px;
     backface-visibility: hidden;
     border-radius: 15px;
